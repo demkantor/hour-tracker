@@ -12,7 +12,6 @@
             </b-btn>
           </b-col>
         </b-row>
-
         <b-row>
           <b-col>
             <b-table striped hover :items="items"></b-table>
@@ -36,9 +35,9 @@ export default {
           date: 'May 12, 2020',
           start_time: '7:00 am',
           end_time: '11:00 am'
-        },
+        }
       ]
-    }
+    };
   }
 };
 </script>

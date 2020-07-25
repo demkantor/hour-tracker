@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-button class="mr-4" v-b-toggle.sidebar>Menu</b-button>
+      <b-button v-b-toggle.sidebar class="mr-4">Menu</b-button>
       <b-navbar-brand href="#">Hour Tracker</b-navbar-brand>
     </b-navbar>
     <b-sidebar id="sidebar" title="Main Menu" shadow>
