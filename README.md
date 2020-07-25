@@ -1,3 +1,7 @@
+## Hour Tracker
+desktop app built in vue and nw.js
+
+
 # nw-vue-cli-example
 
 [![Build Status](https://travis-ci.org/nwutils/nw-vue-cli-example.svg?branch=master)](https://travis-ci.org/nwutils/nw-vue-cli-example)
