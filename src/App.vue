@@ -2,7 +2,7 @@
   <div id="app">
     <b-navbar toggleable="lg" type="dark" variant="info">
       <b-button v-b-toggle.sidebar class="mr-4">Menu</b-button>
-      <b-navbar-brand href="#">Hour Tracker</b-navbar-brand>
+      <b-navbar-brand href="/#/">Hour Tracker</b-navbar-brand>
     </b-navbar>
     <b-sidebar id="sidebar" title="Main Menu" shadow>
       <div class="px-3 py-2">
@@ -16,10 +16,10 @@
         </b-list-group>
         <div class="dropdown-divider"></div>
         <b-list-group>
-          <b-list-group-item href="/">
+          <b-list-group-item href="/#/exports">
             Exports
           </b-list-group-item>
-          <b-list-group-item href="/">
+          <b-list-group-item href="/#/settings">
             Settings
           </b-list-group-item>
         </b-list-group>

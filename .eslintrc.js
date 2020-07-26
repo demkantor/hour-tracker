@@ -35,6 +35,24 @@ module.exports = {
       'error',
       'Property[method="true"]'
     ],
+    'vue/attribute-hyphenation': [
+      'error', 
+      'never', 
+      {
+        'ignore': [
+          'label-for',
+          'offset-sm'
+        ]
+      }
+    ],
+    'space-before-function-paren': [
+      'error', 
+      {
+        'anonymous': 'always',
+        'named': 'never',
+        'asyncArrow': 'always'
+      }
+    ],
     'vuejs-accessibility/label-has-for': [
       'error',
       {

@@ -2,6 +2,10 @@
 desktop app built in vue and nw.js
 
 
+### Thank You NW.js UTILITIES
+This skeleton helped not waste time with setup, highly recommend to anyone looking to build a desktop app with vue [![Starter Repo](https://travis-ci.org/nwutils/nw-vue-cli-example.svg?branch=master)](https://travis-ci.org/nwutils)
+
+
 # nw-vue-cli-example
 
 [![Build Status](https://travis-ci.org/nwutils/nw-vue-cli-example.svg?branch=master)](https://travis-ci.org/nwutils/nw-vue-cli-example)

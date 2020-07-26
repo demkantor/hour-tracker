@@ -14,7 +14,7 @@
         </b-row>
         <b-row>
           <b-col>
-            <b-table striped hover :items="items"></b-table>
+            <b-table striped hover :items="items" />
           </b-col>
         </b-row>
       </b-col>
@@ -27,6 +27,7 @@ export default {
   name: 'HoursLog',
   components: {
   },
+  // eslint-disable-next-line no-restricted-syntax
   data() {
     return {
       items: [
