@@ -32,7 +32,6 @@
 <script>
 export default {
   name: 'TimeEntry',
-  // eslint-disable-next-line no-restricted-syntax
   data() {
     return {
       startDate: {},
@@ -40,12 +39,10 @@ export default {
     };
   },
   methods: {
-    // eslint-disable-next-line no-restricted-syntax
     onSubmit(e) {
       e.preventDefault();
       console.log('submited');
     },
-    // eslint-disable-next-line no-restricted-syntax
     onReset(e) {
       e.preventDefault();
       console.log('reseted');

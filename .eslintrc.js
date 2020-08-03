@@ -32,8 +32,7 @@ module.exports = {
   ],
   rules: {
     'no-restricted-syntax': [
-      'error',
-      'Property[method="true"]'
+      'error'
     ],
     'vue/attribute-hyphenation': [
       'error', 
@@ -41,7 +40,8 @@ module.exports = {
       {
         'ignore': [
           'label-for',
-          'offset-sm'
+          'offset-sm',
+          'max-rows'
         ]
       }
     ],
