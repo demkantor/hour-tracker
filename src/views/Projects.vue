@@ -16,7 +16,7 @@
         <b-row>
           <b-col>
             <v-select
-              :options="[{label: 'Canada', code: 'ca'}]"
+              :options="[{label: 'First Project', code: '1-p'}, {label: 'Second Project', code: '2-p'}]"
             />
           </b-col>
         </b-row>
