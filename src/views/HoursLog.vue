@@ -18,7 +18,7 @@
               striped 
               hover 
               :fields="fields" 
-              :items="items" 
+              :items="entries" 
             />
           </b-col>
         </b-row>

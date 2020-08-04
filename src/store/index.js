@@ -2,7 +2,6 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import PouchDB from 'pouchdb';
 import { v4 as uuidv4 } from 'uuid';
-
 import router from '../router';
 
 const timeEntriesDB = new PouchDB('timeEntries');
