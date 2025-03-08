@@ -63,7 +63,7 @@
     "rimraf": "^3.0.2",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11",
-    "wait-on": "^5.1.0"
+    "wait-on": "^8.0.2"
   },
   "ManifestComments": [
     "Only add dependencies that you want shipped to the end user, for everything else, use devDependencies, including things that will be bundled by webpack.",
